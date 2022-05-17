@@ -100,7 +100,7 @@
                 ?>
         </table>
             <div class="warning">
-                <h4>Ainda não há registros!</h4>
+                <h4>Ainda não há registros!!</h4>
             </div>
         <?php
             }

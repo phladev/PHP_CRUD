@@ -28,7 +28,7 @@ Class Pessoa {
     //CADASTRA PESSOAS
     public function register($nome, $tel, $email) {
 
-        //VERIFICAÇÃO
+        //VERIFICAÇÃO EMAIL
         $cmd = $this->pdo->prepare("SELECT id from pessoa WHERE email = :e");
         $cmd->bindValue(":e", $email);
         $cmd->execute();
