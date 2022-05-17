@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+label,input {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    font-size: 13pt;
+}
+
+form {
+    width: 330px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+.left {
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+.right {
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+tr {
+    line-height: 30px;
+}
+
+.title {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+td {
+    padding: 0 5px;
+}
+
+a {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.warning {
+    width: 90%;
+    height: 50px;
+    margin:0 auto;
+}
+
+h4{
+    float: left;
+    line-height: 50px;
+}
